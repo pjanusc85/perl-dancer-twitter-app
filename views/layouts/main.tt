@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=<% settings.charset %>" />
+    <title>MyTwitter::App</title>
+    <link rel="stylesheet" href="<% request.uri_base %>/css/style.css" />
+
+    <!-- Grab jQuery from a CDN, fall back to local if necessary -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript">/* <![CDATA[ */
+        !window.jQuery && document.write('<script type="text/javascript" src="<% request.uri_base %>/javascripts/jquery.min.js"><\/script>')
+    /* ]]> */</script>
+    <style type="text/css">
+        blockquote.twitter-tweet {
+            display: inline-block;
+            font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+            font-size: 12px;
+            font-weight: bold;
+            line-height: 16px;
+            border-color: #eee #ddd #bbb;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 1px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+            margin: 10px 5px;
+            padding: 0 16px 16px 16px;
+            max-width: 468px;
+        }
+
+        blockquote.twitter-tweet p {
+            font-size: 16px;
+            font-weight: normal;
+            line-height: 20px;
+        }
+
+        blockquote.twitter-tweet a {
+            color: inherit;
+            font-weight: normal;
+            text-decoration: none;
+            outline: 0 none;
+        }
+
+        blockquote.twitter-tweet a:hover,
+        blockquote.twitter-tweet a:focus {
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="stylesheet" href="https://abs.twimg.com/a/1412373788/css/t1/twitter_core.bundle.css">
+    <link rel="stylesheet" href="https://abs.twimg.com/a/1412373788/css/t1/twitter_more_1.bundle.css">
+    <link rel="stylesheet" href="https://abs.twimg.com/a/1412373788/css/t1/twitter_more_2.bundle.css">
+
+</head>
+<body>
+    [% content %]
+    <div id="footer">
+    Powered by <a href="http://perldancer.org/">Dancer</a> [% dancer_version %]
+</div>
+</body>
+</html>

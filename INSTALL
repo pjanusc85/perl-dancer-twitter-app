@@ -1,0 +1,31 @@
+
+  TWITTER WEB APPLICATION INSTALLATION OVERVIEW
+
+  Quick Start - Unix
+  ------------------
+
+    Make sure perl and make is currently installed.
+
+    $ sudo cpan Dancer
+    $ sudo cpan Template
+    $ sudo cpan Array::Utils
+    $ sudo cpan Net::Twitter
+    $ sudo cpan Net::OAuth
+    $ sudo cpan IO::Socket::SSL
+
+
+    To run the app:
+    $ ./bin/app.pl
+
+    To access the running app:
+    $ http://localhost:3000
+
+    For deployment on Apache server you may visit this url, http://search.cpan.org/dist/Dancer/lib/Dancer/Deployment.pod
+
+
+  Postscript
+  ----------
+
+  To obtain help with installation problems, please email at pjanusc85@gmail.com
+
+  Thanks for using the Twitter Web Application.

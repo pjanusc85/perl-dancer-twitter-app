@@ -1,0 +1,37 @@
+  
+<!-- 
+    Credit goes to the Ruby on Rails team for this page 
+    has been heavily based on the default Rails page that is 
+    built with a scaffolded application.
+
+    Thanks a lot to them for their work.
+
+    See Ruby on Rails if you want a kickass framework in Ruby:
+    http://www.rubyonrails.org/
+-->
+<h1>Welcome!!!</h1>
+<hr/>
+
+<br/><br/>
+<h2>Twitter API Services offerred:</h2>
+<ul>
+    <li>
+        <strong>/:screen_name/recent_tweets</strong> <i>Gets the recent tweets of the specified screen name</i>
+    </li>
+    <li>
+        <strong>/:screen_name/following</strong> <i>Gets the people being followed of the specified screen name</i>
+    </li>
+    <li>
+        <strong>/:screen_name1/following/:screen_name2</strong> <i>Gets the intersection of the people being followed between two screen names</i>
+    </li>
+</ul>
+</p>
+<br/><br/>
+<h2>Sample URLs:</h2>
+<p>
+<ul>
+    <li><a href="/nba/recent_tweets">NBA Recent Tweets</a></li>
+    <li><a href="/kobebryant/following">People Being Followed By Kobe Bryant</a></li>
+    <li><a href="/nba/following/kobebryant">Intersection of the people being followed between NBA and Kobe Bryant</a></li>
+</ul>
+</p>

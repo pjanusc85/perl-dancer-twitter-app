@@ -1,0 +1,22 @@
+ Twitter Web Application
+
+  What is it?
+  -----------
+
+  The Twitter Web Application is written on top of Perl Dancer Web Application framework.
+  Allows you to view the recent tweets of a specified screen name, people being followed
+  by the specified screen name and the intersection of the people being followed between
+  two screen names.
+
+  Installation
+  ------------
+
+  Please see the file called INSTALL.  Platform specific notes can be
+  found in README.platforms.
+
+  Contacts
+  --------
+
+     o For bugs found, or new feature requests you may contact at pjanusc85@gmail.com
+
+  Enjoy!!!
